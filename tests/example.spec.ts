@@ -8,10 +8,14 @@ test.describe("Electron Test", async ()  =>
      test("Electron APP Test", async () => 
      {
 
-        let pathEXE = "C:/Hexagon/Mining/MineMeasure Office/mine-measure-office.exe"
+        let pathEXE = 'C:/Hexagon/Mining/MineMeasure Office/'
+
+        let nameEXE = 'mine-measure-office.exe'
+
+        process.chdir(pathEXE)
 
         // Launch Electron app.
-        const electronApp = await _electron.launch( { executablePath: pathEXE } );
+        const electronApp = await _electron.launch( { executablePath: pathEXE + nameEXE } );
     
         // Evaluation expression in the Electron context.
         const appPath = await electronApp.evaluate(async ({ app }) => {

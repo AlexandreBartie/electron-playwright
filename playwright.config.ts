@@ -11,7 +11,7 @@ import { devices } from '@playwright/test';
  * See https://playwright.dev/docs/test-configuration.
  */
 const config: PlaywrightTestConfig = {
-  testDir: './tests',
+  testDir: 'tests',
   /* Maximum time one test can run for. */
   timeout: 30 * 1000,
   expect: {
@@ -49,49 +49,22 @@ const config: PlaywrightTestConfig = {
       use: {
         ...devices['Desktop Chrome'],
       },
-    },
+    }
 
-    {
-      name: 'firefox',
-      use: {
-        ...devices['Desktop Firefox'],
-      },
-    },
-
-    {
-      name: 'webkit',
-      use: {
-        ...devices['Desktop Safari'],
-      },
-    },
-
-    /* Test against mobile viewports. */
     // {
-    //   name: 'Mobile Chrome',
+    //   name: 'firefox',
     //   use: {
-    //     ...devices['Pixel 5'],
-    //   },
-    // },
-    // {
-    //   name: 'Mobile Safari',
-    //   use: {
-    //     ...devices['iPhone 12'],
+    //     ...devices['Desktop Firefox'],
     //   },
     // },
 
-    /* Test against branded browsers. */
     // {
-    //   name: 'Microsoft Edge',
+    //   name: 'webkit',
     //   use: {
-    //     channel: 'msedge',
+    //     ...devices['Desktop Safari'],
     //   },
     // },
-    // {
-    //   name: 'Google Chrome',
-    //   use: {
-    //     channel: 'chrome',
-    //   },
-    // },
+
   ],
 
   /* Folder for test artifacts such as screenshots, videos, traces, etc. */
