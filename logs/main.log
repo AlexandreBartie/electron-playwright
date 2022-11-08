@@ -1,5 +1,5 @@
-[2022-11-08 08:14:07.532] [debug] Connecting to .NET Core app...
-[2022-11-08 08:14:08.712] [error] Error: Could not start c:\DEVOPS\TRAINING\electron-playwright\dataprocessor\build\Hxgn.Mme.Platform.DataProcessor.exe. Are you sure you have the right path?
+[2022-11-08 08:22:10.935] [debug] Connecting to .NET Core app...
+[2022-11-08 08:22:12.188] [error] Error: Could not start c:\DEVOPS\TRAINING\electron-playwright\dataprocessor\build\Hxgn.Mme.Platform.DataProcessor.exe. Are you sure you have the right path?
     at ConnectionBuilder.build (C:\Hexagon\Mining\MineMeasure Office\resources\app.asar\node_modules\electron-cgi\connection-builder.js:20:19)
     at C:\Hexagon\Mining\MineMeasure Office\resources\app.asar\node_modules\@atomos\atomizer-dotnet\dotnet.js:62:99
     at new Promise (<anonymous>)
