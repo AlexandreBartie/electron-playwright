@@ -1,0 +1,12 @@
+[2022-11-08 08:14:07.532] [debug] Connecting to .NET Core app...
+[2022-11-08 08:14:08.712] [error] Error: Could not start c:\DEVOPS\TRAINING\electron-playwright\dataprocessor\build\Hxgn.Mme.Platform.DataProcessor.exe. Are you sure you have the right path?
+    at ConnectionBuilder.build (C:\Hexagon\Mining\MineMeasure Office\resources\app.asar\node_modules\electron-cgi\connection-builder.js:20:19)
+    at C:\Hexagon\Mining\MineMeasure Office\resources\app.asar\node_modules\@atomos\atomizer-dotnet\dotnet.js:62:99
+    at new Promise (<anonymous>)
+    at connectToDotNet (C:\Hexagon\Mining\MineMeasure Office\resources\app.asar\node_modules\@atomos\atomizer-dotnet\dotnet.js:60:23)
+    at connect (C:\Hexagon\Mining\MineMeasure Office\resources\app.asar\node_modules\@atomos\atomizer-dotnet\dotnet.js:147:15)
+    at Object.callback (C:\Hexagon\Mining\MineMeasure Office\resources\app.asar\node_modules\@atomos\atomizer-dotnet\dotnet.js:166:9)
+    at callSubscriptionCallback (C:\Hexagon\Mining\MineMeasure Office\resources\app.asar\node_modules\@atomos\atomizer-desktop\ipc.js:52:26)
+    at onEmitted (C:\Hexagon\Mining\MineMeasure Office\resources\app.asar\node_modules\@atomos\atomizer-desktop\ipc.js:65:14)
+    at electron/js2c/browser_init.js:5957:52
+    at WebContents.<anonymous> (electron/js2c/browser_init.js:3920:42)
